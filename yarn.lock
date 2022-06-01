@@ -1473,10 +1473,10 @@
   resolved "https://registry.yarnpkg.com/@sambego/storybook-styles/-/storybook-styles-1.0.0.tgz#4f840ee26dd0b25dcb803a75caa42e16071dcaae"
   integrity sha512-n0SqZwDewUDRaStEcoNMiYy9qovaLVStsh4Gb2dc2LLiG3IIK0UXdeR1N7puVuRihJq/192uOyGPCjZ/NAteuA==
 
-"@tinacms/cli@^0.60.18":
-  version "0.60.18"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.60.18.tgz#aa9bbf48ca06657f3c1924e5693af9b8eb8d5189"
-  integrity sha512-ACuzMqscpAenlwgOUrz9haLO8LhEBq2gYf6gD8R+HT4MokT47jxOrpQbJYwAzN0sA1wFsw/Nm28L8YGqh2Hy4w==
+"@tinacms/cli@default_media_store":
+  version "0.0.0-20225119191"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.0.0-20225119191.tgz#5ffa6a1b82bffa92877971412ada1db8a98291a6"
+  integrity sha512-qmA2iO9Vft5hG38n1pCEl1S6dlOJjw5cbUtg0NWaI7q9vXUWW1iD8Xr51rjJ17kXAHGCn6MeV7YDM6iJd2quwA==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -1609,10 +1609,10 @@
   resolved "https://registry.yarnpkg.com/@tinacms/sharedctx/-/sharedctx-0.1.1.tgz#8ca3446348b87653095a4a3bda797ddaa65d4d38"
   integrity sha512-+23d5EWdj34p/fYTYn+R2QOt8hn5qqirH7/o2cWYhY1ywCi/gZbCjzRXyi7PxBMh4fH1lFZuO5zseZrIWgmodA==
 
-"@tinacms/toolkit@0.56.29":
-  version "0.56.29"
-  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.56.29.tgz#d6b2bd176df027ecc20c2b4029c5464fd71e7b5e"
-  integrity sha512-R+Rft+CJf5OFr4ON6nGisRVZcaEDl3qkV24B6e+1y18sz9GX+XJsVIsjHkNz743QgrKv0Cge3+jArUKYcXUkwQ==
+"@tinacms/toolkit@0.0.0-20225119191":
+  version "0.0.0-20225119191"
+  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.0.0-20225119191.tgz#3c42320d9d1b03c993e70878e8a4ffe5047da5a6"
+  integrity sha512-N6OT/Gn5Dk8QdMqnyC4DuMLCUAnPz6GKRG/+fYs9GvQpCXULsATv9iJz3A3B1oIQZfy9dGR+qAGWdstmqFetZw==
   dependencies:
     "@floating-ui/dom" "^0.1.7"
     "@floating-ui/react-dom" "^0.3.3"
@@ -1661,6 +1661,7 @@
     final-form-set-field-data "^1.0.2"
     is-hotkey "^0.2.0"
     lodash.get "^4.4.2"
+    mime-types "^2.1.24"
     moment ">=2 <=3"
     multer "1.4.2"
     path "^0.12.7"
@@ -6665,6 +6666,18 @@ mime-db@1.51.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.51.0.tgz#d9ff62451859b18342d960850dc3cfb77e63fb0c"
   integrity sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==
 
+mime-db@1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
+  integrity sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==
+
+mime-types@^2.1.24:
+  version "2.1.35"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
+  integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
+  dependencies:
+    mime-db "1.52.0"
+
 mime-types@~2.1.24:
   version "2.1.34"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.34.tgz#5a712f9ec1503511a945803640fafe09d3793c24"
@@ -8739,10 +8752,10 @@ timers-browserify@2.0.12:
   dependencies:
     setimmediate "^1.0.4"
 
-tinacms@^0.68.6:
-  version "0.68.6"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.68.6.tgz#28562558280ce651433ec3b0ba1679b9b0218aa7"
-  integrity sha512-dB1sGYrdm6hmC4Br54PjswyBSOc2Wjlsih9STfrPZ1g86/z87EcNujlo/Rj9RTZZhZ6tAyFMCmLI9gMJBgU3TQ==
+tinacms@default_media_store:
+  version "0.0.0-20225119191"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.0.0-20225119191.tgz#d041452fb0b7ec14090c17d4d99948c2124e2126"
+  integrity sha512-2XRSWc0xMXJp8C10ZixdNreoGo3W0JoqCDrtsj2yMZAIuH592HGQuHFUphslHCERi43vbLkfuAAG12g7z6UoHg==
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@headlessui/react" "^1.5.0"
@@ -8750,7 +8763,7 @@ tinacms@^0.68.6:
     "@react-hook/window-size" "^3.0.7"
     "@tinacms/schema-tools" "0.0.4"
     "@tinacms/sharedctx" "0.1.1"
-    "@tinacms/toolkit" "0.56.29"
+    "@tinacms/toolkit" "0.0.0-20225119191"
     crypto-js "^4.0.0"
     fetch-ponyfill "^7.1.0"
     final-form "4.20.1"
