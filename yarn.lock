@@ -1474,9 +1474,9 @@
   integrity sha512-n0SqZwDewUDRaStEcoNMiYy9qovaLVStsh4Gb2dc2LLiG3IIK0UXdeR1N7puVuRihJq/192uOyGPCjZ/NAteuA==
 
 "@tinacms/cli@default_media_store":
-  version "0.0.0-20225119191"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.0.0-20225119191.tgz#5ffa6a1b82bffa92877971412ada1db8a98291a6"
-  integrity sha512-qmA2iO9Vft5hG38n1pCEl1S6dlOJjw5cbUtg0NWaI7q9vXUWW1iD8Xr51rjJ17kXAHGCn6MeV7YDM6iJd2quwA==
+  version "0.0.0-202251194140"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.0.0-202251194140.tgz#24d06a330162fa95a8c30a53eaded1c1d8acb3a8"
+  integrity sha512-tDVodbUIWDiKjJ+Pwt2hx44O5J5mZomBeLFsI3DN1VMP792/l5wnmITRQPpe1oWqZIvP6fKPhwQaloTqaINszw==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
